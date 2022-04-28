@@ -15,8 +15,9 @@ A direção terá a responsabilidade a direção. Ela oferece os seguintes atrib
 
 
     exemplos:
-    >>>  motor = Mortor()
-    >>> motor.velocidade
+    >>> #Testando motor
+    >>> motor = Motor()
+    >>> motor.velocidade()
     0
     >>> motor.acelerar()
     >>> motor.velocidade()
@@ -80,3 +81,8 @@ A direção terá a responsabilidade a direção. Ela oferece os seguintes atrib
     'Norte'
 
 """
+
+
+class Motor:
+    def __init__(self):
+        self.velocidade = 0
