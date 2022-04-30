@@ -67,13 +67,13 @@ A direção terá a responsabilidade a direção. Ela oferece os seguintes atrib
     0
     >>> carro.acelerar()
     >>> carro.calcular_velocidade()
-    0
+    1
     >>> carro.acelerar()
     >>> carro.calcular_velocidade()
-    0
+    2
     >>> carro.frear()
     >>> carro.calcular_velocidade()
-    0
+    3
     >>> carro.calcular_direcao()
     'Norte'
     >>> carro.girar_a_direita()
